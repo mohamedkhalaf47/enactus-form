@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="box-border p-0 m-0 flex items-center justify-center h-screen bg-[url('/Assets/background.jpg')] bg-no-repeat bg-cover">
+    <div class="w-[400px] backdrop-blur-lg p-8 shadow-[3px_3px_41px_3px_rgba(71,18,107,0.3)] shadow-purple-500/80">
+      <h2 class="text-center m-7 text-2xl text-white">Login Page</h2>
+      <form class="w-full m-0 grid gap-[16px]">
+        <label class="text-left text-white">Username</label>
+        <input type="text" placeholder="Enter Your Username" class="text-black opacity-80 text-base p-5 rounded-2xl transition-all duration-500 outline-none hover:border-black hover:border hover:border-solid">
+        <label class="text-left text-white">Password</label>
+        <input type="password" placeholder="Enter Your Password" class="text-black opacity-80 text-base p-5 rounded-2xl transition-all duration-500 outline-none hover:border-black hover:border hover:border-solid">
+        <div class="flex items-center justify-between mx-4">
+          <input type="checkbox" class="mr-[-20px]">
+          <span class="text-white">Remember Me</span>
+          <a href="#" class="text-white">Forget Your Password</a>
+        </div>
+        <button class="cursor-pointer py-4 px-0 text-base font-bold text-center  tracking-wide bg-white opacity-80 transition-all duration-500 hover:bg-black hover:text-white">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
